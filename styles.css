@@ -1,0 +1,83 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 62.5%;
+        }
+
+        body {
+            background: url(./images/viking-ship.jpg) darkblue;
+            background-size: contain;
+            height: 100vh;
+            width: 100vw;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            font-family: serif;
+            font-size: 1.6rem;
+            text-transform: uppercase;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            transition: all;
+            
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        h1 {
+            margin-top: auto;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            margin: 0 0 auto;
+            list-style-type: none;
+        }
+
+        ul li {
+            margin-top: 0.5rem;
+            font-weight: 700;
+            letter-spacing: 1.3px;
+        }
+
+        a:link, a:visited {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        a:hover, a:active {
+            cursor: pointer;
+            text-decoration: underline;
+            color: darkslategray;
+        }
+
+        p {
+            text-align: center;
+            background-color: black;
+            opacity: 0.7;
+            color: lightgray;
+            display: inline-block;
+            padding: 2rem;
+            width: 100%;
+        }
+
+        p a:hover, p a:active {
+            color: #fff;
+        }
