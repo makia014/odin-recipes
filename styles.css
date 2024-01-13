@@ -10,7 +10,7 @@
         }
 
         body {
-            background: url(./images/viking-ship.jpg) darkblue;
+            background: url(./images/viking-ship.jpg) rgb(29, 36, 36);
             background-size: contain;
             height: 100vh;
             width: 100vw;
@@ -31,6 +31,7 @@
         }
 
         .container {
+            margin-top: 15rem;
             width: 100%;
             max-width: 800px;
             height: 400px;
@@ -70,7 +71,7 @@
 
         p {
             text-align: center;
-            background-color: black;
+            background-color: rgb(29, 36, 36);
             opacity: 0.7;
             color: lightgray;
             display: inline-block;
