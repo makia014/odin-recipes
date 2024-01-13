@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(136, 136, 136);
+  font-size: 1.6rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 1.7px;
+  word-spacing: 0.35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul,
+ol {
+  margin-left: 3rem;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  display: inline-block;
+  padding: 4px 8px;
+  background-color: rgb(153, 152, 152);
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px 1px #666;
+}
+
+a:hover,
+a:active {
+  background-color: rgb(167, 165, 165);
+}
+
+h1,
+h2,
+a {
+  color: rgb(95, 48, 14);
+  text-transform: uppercase;
+  margin: 3rem 0 1rem;
+  letter-spacing: 0.7px;
+}
+
+.container {
+  background-color: rgb(163, 163, 163);
+  max-width: 1000px;
+  padding: 1rem 3rem;
+  margin: 0 auto;
+  line-height: 1.3;
+}
+
+.img,
+.recipe,
+.links {
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border: 3px solid rgb(95, 48, 14);
+  border-radius: 1rem;
+}
