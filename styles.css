@@ -11,7 +11,7 @@
 
         body {
             background: url(./images/viking-ship.jpg) rgb(29, 36, 36);
-            background-size: contain;
+            background-size: cover;
             height: 100vh;
             width: 100vw;
             background-repeat: no-repeat;
@@ -66,19 +66,15 @@
         a:hover, a:active {
             cursor: pointer;
             text-decoration: underline;
-            color: darkslategray;
+            color: #aaa;
         }
 
         p {
             text-align: center;
-            background-color: rgb(29, 36, 36);
+            background-color: #333;
             opacity: 0.7;
-            color: lightgray;
+            color: #fff;
             display: inline-block;
             padding: 2rem;
             width: 100%;
-        }
-
-        p a:hover, p a:active {
-            color: #fff;
         }
