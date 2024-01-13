@@ -1,6 +1,6 @@
 # odin-recipes
 
-This repository is part of [The Odin Project](www.theodinproject.com) curriculum. It is a Recipes project to practice essential HTML skills achieved in the [Foundations Path](https://www.theodinproject.com/paths/foundations/courses/foundations).
+This repository is part of [The Odin Project](https://www.theodinproject.com/) curriculum. It is a Recipes project to practice essential HTML skills achieved in the [Foundations Path](https://www.theodinproject.com/paths/foundations/courses/foundations).
 
 Due to the fact that I know some CSS, I've decided to give this project some styling as well.
 
