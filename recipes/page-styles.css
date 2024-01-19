@@ -1,11 +1,12 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
+  box-sizing: inherit;
 }
 
 body {
@@ -14,10 +15,10 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   letter-spacing: 1.7px;
   word-spacing: 0.35rem;
+
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 2rem;
+  justify-content: center;
 }
 
 h1 {
@@ -34,19 +35,20 @@ a:visited {
   text-decoration: none;
   display: inline-block;
   padding: 4px 8px;
-  background-color: rgb(153, 152, 152);
+  color: rgb(95, 48, 14);
+  background-color: rgb(167, 167, 167);
   border-radius: 6px;
-  box-shadow: 1px 1px 1px 1px #666;
+  box-shadow: 1px 1px 1px 1px rgb(95, 48, 14);
+  padding: 0.5rem 1.5rem;
 }
 
 a:hover,
 a:active {
-  background-color: rgb(167, 165, 165);
+  background-color: rgb(157, 157, 157);
 }
 
 h1,
-h2,
-a {
+h2 {
   color: rgb(95, 48, 14);
   text-transform: uppercase;
   margin: 3rem 0 1rem;
@@ -54,18 +56,14 @@ a {
 }
 
 .container {
-  background-color: rgb(163, 163, 163);
-  max-width: 1000px;
-  padding: 1rem 3rem;
-  margin: 0 auto;
   line-height: 1.3;
-}
-
-.img,
-.recipe,
-.links {
-  width: 90%;
-  margin: 0 auto;
+  width: 80%;
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
 }
 
 img {
@@ -73,4 +71,46 @@ img {
   height: auto;
   border: 3px solid rgb(95, 48, 14);
   border-radius: 1rem;
+}
+
+.nav {
+  margin: 0 auto;
+  width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.links {
+  margin-top: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.recipe {
+  margin-bottom: 5rem;
+}
+
+@media only screen and (min-width: 1600px) {
+  body {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .container {
+    max-width: 90%;
+    align-items: flex-end;
+    margin-bottom: 3rem;
+  }
+
+  .recipe {
+    flex: 2;
+    margin-bottom: unset;
+  }
+  .presentation {
+    flex: 3;
+  }
 }

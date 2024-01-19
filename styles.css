@@ -1,15 +1,16 @@
-* {
-  margin: 0;
-  padding: 0;
+html {
+  font-size: 62.5%;
   box-sizing: border-box;
 }
 
-html {
-  font-size: 62.5%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 body {
-  background: url(./images/viking-ship.jpg) rgb(29, 36, 36);
+  background: url(./images/viking-ship-large.jpg) rgb(29, 36, 36);
   background-size: cover;
   height: 100vh;
   width: 100vw;
