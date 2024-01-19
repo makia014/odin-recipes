@@ -7,7 +7,7 @@ Due to the fact that I know some CSS, I've decided to give this project some sty
 ## screenshots
 
 ![](./images/screens/Screenshot%20from%202024-01-13%2023-57-02.jpg)
-![](./images/screens/Screenshot%20from%202024-01-13%2023-59-43.jpg)
+![](./images/screens/Screenshot%20from%202024-01-19%2019-34-30.png)
 
 ## credits:
 
