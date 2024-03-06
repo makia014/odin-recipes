@@ -1,6 +1,8 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  height: 100dvh;
+  width: 100vw;
 }
 
 * {
@@ -10,10 +12,11 @@ html {
 }
 
 body {
+  width: 100%;
+  height: 100%;
+
   background: url(./images/viking-ship-large.jpg) rgb(29, 36, 36);
   background-size: cover;
-  height: 100vh;
-  width: 100vw;
   background-repeat: no-repeat;
   background-position: center;
 
